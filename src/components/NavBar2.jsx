@@ -6,12 +6,14 @@ import { Button } from "./utils";
 
 const SNavBar = Styled.nav`
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  justify-content: space-around;
   padding-top: 1%;
   padding-bottom: 1%;
+  padding-left: 70%;
 `;
 
-const Navbar = (props) => {
+const Navbar2 = (props) => {
   const history = useHistory();
 
   const changePage = (route) => {
@@ -28,4 +30,4 @@ const Navbar = (props) => {
   );
 };
 
-export default Navbar;
+export default Navbar2;

@@ -1,3 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+      <img src={instagram} height={25} />
+      <img src={linkedin} height={25} />
+      <img src={twitter} height={25} />
+      <img src={youtube} height={25} />
