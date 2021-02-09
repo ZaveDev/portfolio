@@ -1,12 +1,11 @@
-body {
-  background-color: #282c34;
-  color: whitesmoke;
-}
-
 .App {
   text-align: center;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
